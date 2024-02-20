@@ -8,5 +8,7 @@ import SideBar from './components/SideBar.vue';
   <header>
     <NavBar />
   </header>
-  <SideBar />
+  <main class="pt-12 block">
+    <SideBar />
+  </main>
 </template>

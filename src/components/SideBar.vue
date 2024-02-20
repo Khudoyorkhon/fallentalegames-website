@@ -1,8 +1,10 @@
 <template>
-  <aside>
+  <aside class="p-2 pl-5">
     <ul>
-      <li v-for="(i, key) in links" :key="key">
+      <li class=" font-bold text-white mb-6 last:mb-0" v-for="(i, key) in links" :key="key">
         {{ i.title }}
+        
+<i class="pi pi-check"></i>
       </li>
     </ul>
   </aside>
